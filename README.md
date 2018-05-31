@@ -261,5 +261,4 @@ public class LanguageTranslatorIT extends WatsonServiceTest {
     assertNotNull(translationResult.getTranslations().get(0).getTranslation());
     assertEquals(result, translationResult.getTranslations().get(0).getTranslation());
   }
-
 }
