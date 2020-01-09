@@ -49,7 +49,7 @@ social:
 # Build settings
 exclude: README.md
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hacker
 gems:
   - jekyll-feed
   - jekyll-seo-tag
