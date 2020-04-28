@@ -1,1 +1,9 @@
 *.PostScript linguist-language=C++
+*.md linguist-language=C++
+*.java linguist-language=C++
+*.html linguist-language=C++
+*.js linguist-language=C++
+*.xml linguist-language=C++
+*.css linguist-language=C++
+*.sql linguist-language=C++
+*.uml linguist-language=C++
