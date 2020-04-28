@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problems}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Motivations}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Expectation}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Methods\040and\040Theory}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Extract\040NPD\040features}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Calculate\040the\040error\040rate\040bold0mu\040mumu\040}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Update\040weak\040classifier's\040weight\040bold0mu\040mumu\040}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Update\040sample\040weight\040bold0mu\040mumu\040wwwwww}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Experiments}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Dataset}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Implementation}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 13

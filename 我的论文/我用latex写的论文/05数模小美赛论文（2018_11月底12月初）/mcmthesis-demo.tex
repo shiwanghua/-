@@ -1,0 +1,79 @@
+\documentclass{mcmthesis}
+
+
+\mcmsetup{CTeX = true,
+        tcn = 3700, problem = D,
+        sheet = true, titleinsheet = true, keywordsinsheet = true,
+        titlepage = false, abstract = true}
+\renewcommand{\headset}{{\Large\the\year}\\APMCM\\Summary Sheet}
+
+\usepackage{multirow}
+\usepackage{palatino}
+\usepackage{lipsum}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx, subfig}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage[section]{placeins}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{pdfpages}
+
+
+\geometry{left=1.5cm,right=1.5cm,top=2.5cm,bottom=2.5cm}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+%\setlength\parskip{.5\baselineskip}
+%\newtheorem{definition}{Definition}[section]
+
+\title{Design of Dater Recommendation Algorithm and Information Forms \\
+	with Effect Analysis Study }
+%\author{\small \href{http://www.latexstudio.net/}
+%  {\includegraphics[width=7cm]{mcmthesis-logo}}}
+%\date{\today}
+\begin{document}
+\begin{abstract}
+
+\indent
+Traditional Internet dating can be quite challening for those singles looking for love. Of all the single men or women met online, very few will be compatible specifically, and it can be difficult to determine the level of compatibility of a potential partner through methods of conventional dating services. This paper adopt K-Means, KNN algorithm and Personality Compatibility Matching Principles to recommend perfect dating partners for people online, devoting to giving a more suitable estimate of an ideally sized choice set and improving success rate of online dating. 
+
+%First of all, we build an AR time series model and use SPSS to build the population growth model in each country on the earth. Then, taking Russian as an example, we divide the countries which use Russian into two parts. One part is called L1 country referred to the country which has Russian as native language. The other is called L2 country referred to the country which has Russian as second language. Next, we remove the two kinds of people including the immigrants and those with low education level in L1 country. For L2 country, we use PCA model to find out the percentage of the people in Russian. Finally we solve the sum and make a prediction that the total speakers of Russian are 162 million. Besides, based on our basic model we also predict the total numbers of speakers of ten languages in 50 years and arrive at the conclusion that the top ten languages will not be replaced.
+%
+%Secondly, we build a Mechanics-Migration Rate(MMR) model which is inspired by graph theory and mechanics theory. Based on MMR model, we give a immigration transfer matrix of forty countries in every year(引用方程). We take the existing data into the immigration transfer matrix and obtain a figure graph(引用图片)which shows that MMR model is reasonable and feasible. Based on the model above, we find that only a few languages like English will be increased in some regions and we have given some reasonable explanations.
+%
+%Thirdly, in order to find the optimal location of six offices, we divide the world into eight parts according to some factors and choose ten alternative sites. Then based on the p-median problems, we use LINGO to solve the model. For further study we take two elements into consideration. It is found that the office quantity and scale can be reduced in areas with better development degree. Thus we suggest reducing the number of offices. Last but not least, we conducted a sensitivity test on the established linear programming model.
+%
+%In short, our model is a reasonable model which can predict the distribution of various languages in the future.
+\begin{keywords}
+K-Means; K-Nearest Neighbor; Personality Compatibility Matching  \\
+\indent\enspace\enspace\enspace\enspace\enspace\enspace\enspace\enspace\enspace\enspace\enspace\enspace Perfect Dating Partner Online Recommendation System
+\end{keywords}
+    \end{abstract}
+
+ \begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width = 15cm]{qm.pdf}
+	\includepdf{qm.pdf}
+	
+	\label{qm}
+\end{figure}
+\newpage
+ \begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width = 15cm]{qm.pdf}
+	\includepdf{bh.pdf}
+	
+	\label{qm}
+\end{figure}
+\newpage
+
+    \maketitle
+
+    \newpage                                %插入目录
+    \setcounter{page}{3}                    %插入目录
+    \tableofcontents                        %插入目录
+    \newpage                                %插入目录
+
+    \input{body.tex}                        %正文主体
+\end{document}

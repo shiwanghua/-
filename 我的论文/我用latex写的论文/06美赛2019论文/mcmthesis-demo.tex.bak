@@ -1,0 +1,53 @@
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = true,   % 使用 CTeX 套装时，设置为 true
+        tcn = 80525, problem = B,                                            %改，队号和问题
+        sheet = true, titleinsheet = true, keywordsinsheet = true,
+        titlepage = false, abstract = false}
+
+\usepackage{palatino}
+\usepackage{lipsum}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx, subfig}
+\usepackage{caption}
+\usepackage{booktabs}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}   %引用使用\upsite可以让标志上到上面，用在任何地方都可以
+
+%设置段落之间的距离，若不需要删除或者注释掉即可。
+%\setlength\parskip{.5\baselineskip}
+%\newtheorem{definition}{Definition}[section]
+
+\title{The Highway Tollbooths}                                          %改，题目
+%\author{\small \href{http://www.latexstudio.net/}
+%  {\includegraphics[width=7cm]{mcmthesis-logo}}}
+%\date{\today}
+
+\begin{document}
+    \begin{abstract}            % 改，摘要
+        The development of the automobile industry in particular has stimulated the development of roads along the expressway. As a result, the world's highway network is increasingly connected to large and medium-sized cities. The U.S. highway network is well developed, which not only takes more than 21\% of the traffic volume, shortens the space-time distance and improves the transportation efficiency. This perfect highway has made a huge contribution to the economic development of the United States.
+
+        Consider toll freeways with L driving lanes in each direction and barrier tolls with B toll gates (B> L) in each direction. Which vehicles from the B cross the street exit lane down to L lanes. When the vehicle enters the L lane from the Exit B toll booth, the toll barrier in the area has a significant impact on accident prevention and throughput.
+
+        We determine the area and length of the toll plaza to get the average interval of vehicles, the duration of lane change, the probability of variable lane and the area of the trapezoid merging area, to get a basic general formula
+
+        We repeatedly bring in the model which can be regarded as the Markov\upcite{1,2} queue (M, M, 2) when L = 3 and B = 8.
+
+        This time to improve the mode, the total time spent in the toll booths is far less than the traditional model, the improvement can not only increase the daily throughput of the toll booths, but also improve customer satisfaction.
+
+        Improved toll booths At a vehicle speed of 40m/s, the toll plaza length is only about 55m, much smaller than the traditional toll plaza about 80m, which can greatly reduce the toll station costs.
+
+        \begin{keywords}
+            Keywords: queuing theory, optimal model solution.
+        \end{keywords}
+    \end{abstract}
+
+    \maketitle                              %显示题目等东西
+
+    \newpage                                %插入目录
+    \setcounter{page}{3}
+    \tableofcontents
+    \newpage
+
+    \input{body.tex}
+\end{document}

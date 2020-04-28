@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Our Work}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}Terminology Explained in Model}{4}{section.2}
+\contentsline {section}{\numberline {3}Assumptions}{4}{section.3}
+\contentsline {section}{\numberline {4}Symbols and Definitions}{4}{section.4}
+\contentsline {section}{\numberline {5}Simulation Model}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Justification of Our Approach}{5}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Justification of our approach}{6}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Basic Model}{6}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3} Solution and Result }{8}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Result and Analysis}{10}{subsubsection.5.1.4}
+\contentsline {section}{\numberline {6}Model II}{11}{section.6}
+\contentsline {subsection}{\numberline {6.1}Prediction Model}{11}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Applications of Our Models}{13}{subsection.6.2}
+\contentsline {section}{\numberline {7}Strengths and Weaknesses}{13}{section.7}
+\contentsline {subsection}{\numberline {7.1}Strengths}{13}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Weaknesses}{13}{subsection.7.2}
+\contentsline {section}{Appendices}{14}{section*.12}
+\contentsline {section}{Appendix \numberline {A}First appendix}{14}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Second appendix}{14}{Appendix.a.B}

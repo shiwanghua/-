@@ -1,0 +1,31 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Problems Background}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Problems Restatement \&\& Analysis}{3}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Problem One}{3}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Problem Two}{3}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Problem Three}{4}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Problem Four}{4}{subsubsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.5}Problem Five}{4}{subsubsection.1.2.5}
+\contentsline {section}{\numberline {2}Model Hypothesis}{5}{section.2}
+\contentsline {section}{\numberline {3}Symbol Description}{5}{section.3}
+\contentsline {section}{\numberline {4}Model Analysis and Problem Solution}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Model for Problem One: Fixed Effect Model}{5}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Model Establishment}{5}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Results Analysis}{6}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Model for Problem Two}{7}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Model Establishment}{7}{subsubsection.4.2.1}
+\contentsline {paragraph}{Solution One: Autoregressive Artificial Neural Nets }{7}{section*.1}
+\contentsline {paragraph}{Solution Two: Grey Prediction Model and Combination Prediction Method}{8}{section*.3}
+\contentsline {paragraph}{Solution Three:Linear Regression}{10}{section*.5}
+\contentsline {subsubsection}{\numberline {4.2.2}Results Analysis}{10}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Solution for Problem Three}{13}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Model Establishment}{13}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Results Analysis}{14}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Solution for Problem Four}{15}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Solution for Problem Five}{18}{subsection.4.5}
+\contentsline {section}{\numberline {5}Model Evaluation}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Evaluation for Problem 1}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Evaluation for Problem 2}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Evaluation for Problem 3}{20}{subsection.5.3}
+\contentsline {section}{Appendices}{20}{section*.18}
+\contentsline {section}{Appendix \numberline {A}First appendix}{20}{Appendix.a.A}

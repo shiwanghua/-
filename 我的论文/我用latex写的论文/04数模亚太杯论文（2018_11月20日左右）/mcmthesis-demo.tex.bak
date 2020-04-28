@@ -1,0 +1,392 @@
+
+% !Mode:: "TeX:UTF-8"
+%% This is file `mcmthesis-demo.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% mcmthesis.dtx  (with options: `demo')
+%%
+%% -----------------------------------
+%%
+%% This is a generated file.
+%%
+%% Copyright (C)
+%%     2010 -- 2015 by Zhaoli Wang
+%%     2014 -- 2016 by Liam Huang
+%%     2017         by Zhuang Ma
+%%     2018美赛，为了迈思数模内部学员更快的掌握CTEX，由迈思数模站长对本模板进行调整
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainer of this work is Liam Huang.
+%% 上述内容为介绍改模板的背景
+
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = true,   % 使用 CTeX 套装时，设置为 true
+        tcn = 84422, problem = B,
+        sheet = true, titleinsheet = true, keywordsinsheet = true,
+        titlepage = true, abstract = true}
+\renewcommand{\headset}{{\Large\the\year}\\APMCM\\Summary Sheet}
+%设置摘要页格式，一般按照该设置就行，true表示选择，false表示不选择，需要修改控制号和选择的题目
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{palatino}
+
+\usepackage{lipsum} %添加lipsum宏包，就是随机生成一段文本，可以不使用
+
+\usepackage[UTF8, nocap]{ctex} %如果想使用中文输入的话，可以增加该宏包
+
+\title{Strategies for Urban Development Based on Talent Demand Prediction }
+%\author{\small \href{http://www.latexstudio.net/}
+% {\includegraphics[width=7cm]{mcmthesis-logo}}}
+%\date{\today}
+
+ %正文摘要和控制页摘要名字修改
+%\def\abstractname{Abstract}
+%\def\sheetsummaryname{Summary}
+
+\begin{document}
+
+ %控制页摘要内容
+\begin{sheetsummary}
+
+%lipsum是显示一段无意义的文字
+
+
+\end{sheetsummary}
+
+ %正文摘要内容
+\begin{abstract}
+
+\end{abstract}
+
+ %关键词
+\begin{keywords}
+
+\end{keywords}
+
+\maketitle
+ % Generate the Table of Contents, if it's needed.
+ \tableofcontents
+ \newpage
+
+
+\section{Introduction}
+\subsection{Problems Background}
+Inviting wits and attracting talents is one of the highlights for many cities over the past couple of years. Beijing, Shanghai, Wuhan, Chengdu, Xi'an, and Shenzhen are actually competing for talents with various attractive policies. Talents represent the motive power for the innovative development of cities because of their ability to learn better skills, make better products, and master better management methods within a shorter time. Talents are the major driver for urban innovation diffusion, since innovation diffusion is achieved by promoting new processes and technologies through high-quality talents are the media. In cities today, talents are recruited via the internet, on-campus job fairs, and open recruitment events in addition to local talent markets.
+
+
+%\begin{itemize}
+%\item minimizes the discomfort to the hands, or
+%\item maximizes the outgoing velocity of the ball.
+%\end{itemize}
+
+
+%\emph{center of percussion} [Brody 1986],
+%
+%\begin{Theorem} \label{thm:latex}
+%\LaTeX
+%\end{Theorem}
+%\begin{Lemma} \label{thm:tex}
+%\TeX .
+%\end{Lemma}
+%\begin{proof}
+%The proof of theorem.
+%\end{proof}
+
+\subsection{Problems Restatement \&\& Analysis}
+\subsubsection{Problem One}
+In problem one, we are required to model and analyze the talent demand of the "job market of A-City" from job demand, the desired profession, and the desired educational background based on the data attached. \par\noindent
+The most important point in this problem is to put forward a model that can evaluates the talent demand accurately from the three perspectives appointed. By looking carefully the raw data, we can find out the the "job demand" means the total number of job applicants, the "desired profession" means the number of posts provided by employers in every sector, and the ``desired educational background" means the different educational requirements in different sector. "Talent demand" is weighted by the number of people from different education backgrounds. The latter two perspectives can directly impact on the talent demand of the job market while the first perspective "job demand" may indirectly affect the talent demand, which become a stumbling block for establishing a suitable model.
+
+\subsubsection{Problem Two}
+\noindent
+Problem two needs us to build a model of the actual talent demand of A-City from the next two perspectives which are based on the data attached and other necessary data available:
+\begin{itemize}
+\item Talent demand of the ``job market of A-City''
+\item Employment status of Chinese students
+\end{itemize}
+And then use this model to predict and analyze the potential talent of A-City in the next three years to come.
+\par\noindent
+Apparently, this problem is composed of two parts: Build a model to predict the job demand, desired profession and desired educational background in next three years and use the model in Problem One to evaluate the potential talent of A-City.
+
+\subsubsection{Problem Three}
+In problem three, we are required to infer the administrative category, possible geographical area, economic position, and hi-tech industry development of A-City using the data and conclusions from Problem 2.
+\subsubsection{Problem Four}
+Recent years, there have shown some new career preferences of college students, such as entering for village officer examinations, taking civil service examinations, starting their own businesses, picking up offsite jobs, and studying overseas. These preferences help diversify the career opportunities for college graduates. Try to model and quantify this phenomenon and provide strategies for the urban development and talent introduction for A-City.
+\subsubsection{Problem Five}
+Please write a letter to the school authorities about your suggestions and opinions regarding to the talent training program of a major you know well, covering the curriculum construction, the training of applicative talents, the individualization of college students, and the corresponding quality guarantee measures within the framework of your university and that major, according to the current market demand for talents.
+
+
+\section{Model Hypothesis}
+Fixed effect model has a series of hypothesis in economics.
+\begin{quote}
+Hypothesis1: Explanatory variables are strictly exogenous. \\
+Hypothesis2: High\_tech industries require higher education background. \\
+Hypothesis3: An applicant seeks for job in one sector. \\
+\end{quote}
+\begin{figure}[h]
+%\small
+\centering
+\includegraphics[width=12cm]{td.eps}
+\caption{td\_trend in each sector} \label{fig:aa}
+\end{figure}
+
+ \eqref{aa}\\
+Figure \ref{aa}.
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\centering
+\includegraphics[width=0.8\textwidth]{0.jpg}
+\caption{Figure example 2}
+\end{minipage}
+\begin{minipage}[h]{0.5\linewidth}
+\centering
+\includegraphics[width=0.8\textwidth]{0.jpg}
+\caption{Figure example 3}
+\end{minipage}
+\end{figure}
+
+
+\begin{equation}
+a^2 \label{aa}
+\end{equation}
+
+\[
+  \begin{pmatrix}{*{20}c}
+  {a_{11} } & {a_{12} } & {a_{13} }  \\
+  {a_{21} } & {a_{22} } & {a_{23} }  \\
+  {a_{31} } & {a_{32} } & {a_{33} }  \\
+  \end{pmatrix}
+  = \frac{{Opposite}}{{Hypotenuse}}\cos ^{ - 1} \theta \arcsin \theta
+\]
+
+
+\[
+  p_{j}=\begin{cases} 0,&\text{if $j$ is odd}\\
+  r!\,(-1)^{j/2},&\text{if $j$ is even}
+  \end{cases}
+\]
+
+
+
+\[
+  \arcsin \theta  =
+  \mathop{{\int\!\!\!\!\!\int\!\!\!\!\!\int}\mkern-31.2mu
+  \bigodot}\limits_\varphi
+  {\mathop {\lim }\limits_{x \to \infty } \frac{{n!}}{{r!\left( {n - r}
+  \right)!}}} \eqno (1)
+\]
+\section{Symbol Description}
+\begin{center}
+	\begin{tabular}{cc}
+		\hline
+		\makebox[0.3\textwidth][c]{symbol}	&  \makebox[0.4\textwidth][c]{interpretation} \\ \hline
+		td      & demand of talents        \\ \hline
+        ltd     & log(td)           \\ \hline
+        dp      & desired profession of $sector_i$  \\ \hline
+        ldp     & log(dp)       \\ \hline
+        eb      & education background      \\ \hline
+		
+	\end{tabular}
+\end{center}
+
+\section{Model Analysis}
+Depended on the annexed panel data, a regression function can be modeled to connect explained variable with explanatory variables. For the test and correction of mixed regression model, due to the individual effects that cannot be ignored, fixed effect model -- including individual fixed effect model and time fixed effect model -- is established. However, the individual can't ignore its randomness. So, consider the randomness, Model C-random effect model can strengthen robustness of regression results. What's more, Model D-two way FE model, which fully takes into account the individual fixation effect and time fixation effect. By using the econometric method, the model discuss the impact on the talent demand of A-city from three perspectives. First, The parameters of job demand can indirectly reflect the impact of a sector on talent demand. Second, the classification of sector can reflect the choice of desired profession. Finally, If the sum of Junior college degree and above is bigger than the sum of below it, the desired education equals 1. Otherwise, it's going to be equal to 0.In this regression function, t variable represents time trend to describe the self-progress of sector and parameters of variables can be calculated and inferred. Models are as follows:
+
+\par\noindent model A-mixed regression
+\begin{equation}
+ltd_{i,t}=\beta_0+\beta_1*ljb_{i,t}+\beta_2*ed_{i,t}+\mu_{i,t}
+\end{equation}
+\par\noindent model B-fixed effect model
+\begin{equation}
+ltd_{i,t}=\alpha_i+\beta_0+\beta_1*ljb_{i,t}+\beta_2*ed_{i,t}+\mu
+\end{equation}
+\par\noindent model C-random effect model
+\begin{equation}
+ltd_{i,t}=\beta_0+\beta_1*ljb_{i,t}+\beta_2*ed_{i,t}+v_{i,t}
+\end{equation}
+\par\noindent model D-Two\_Way FE model
+\begin{equation}
+ltd_{i,t}=\beta_0+\beta_1*ljb_{i,t}+\beta_2*ed_{i,t}+\beta_3*mth_i+\mu_{i,t}
+\end{equation}
+\par\noindent
+
+
+\section{Model Evaluation}
+Dealing with an analytical type of question, regression model can provide quantitative explanation in the causality between explained variable and explanatory variables. Job demand could have a positive effect on talent demand. Different sectors could be different in talent demand - high-tech industries need higher education background and less employee, while low-tech industries do the opposite. Model A-Model D state that the three factors all have statistically significant effect on talent demand from different ways. Now I am going to list regression results and try to analyze the talent demand of the "jib market of A-city" from job demand, the desired profession, and the desired education.
+
+\begin{center}
+\begin{tabular}{c|cclcrcc}
+\hline
+ Variable & OLS & FE\_robust & FE & RE & FE\_trend \\% 表格标题
+\hline
+ljb & 9.581*** & 8.381*** & 8.381*** & 8.503*** & 8.469*** \\
+eb &  3.862** & 2.794*** & 2.794*** & 2.871*** & 2.860***  \\
+mth &      &     &     &      & -0.040  \\
+\_cons & -16.482*** & -13.267*** & -13.267*** & -13.516*** &   -12.748*** \\
+\hline
+\end{tabular}
+\end{center}
+
+\par Let's take model A as an example. Parameter estimation of ljb is 9.581, which means that if job demand changes by 1 percent, then the talent demand will change by 9.581 units. Parameter estimation of eb is 3.856, which means that the desired education above junior college , on average, is 3.682 units higher than below junior high school of talent demand. The symbol * represents the level of significance of the estimate. The higher the significance level, the more *. According to the table above, only the time term mth is not statistically significant, and the parameters in the other four models are statistically significant at the significance level of 0.01.
+\par Least Square Dummy Variable, LSDV. Let's look at the effect of different industries on talent demand. LSDV adds the industry as a dummy variable to the regression equation. The following table presents partial regression results of LSDV.The overall industry regression results are shown in the appendix.
+
+\begin{center}
+\begin{tabular}{c|cclcrcc}
+\hline
+   &  & robust & & &  \\
+td & Coef & Std. Err. & t & P>|t| & [0.95 Conf. Interval] \\
+\hline
+ljb & 8.381347 & 1.789177 & 4.68 & 0.000 & 4.783966  11.97873 \\
+eb & 2.793663 & .7280897 & 3.84 & 0.000 & 1.329741  4.257586  \\
+stor &      &     &     &      &   \\
+Art/graphi.. & -1.081869&1.631926&-0.66&0.511&-4.363076  2.199339 \\
+Banking&-2.829136&.4831389&-5.86&0.000 &-3.800552  -1.857721 \\
+Beauty and.. & -4.351724 &1.00227 & -4.34&0.000&-6.366924  -2.336524 \\
+Biology/ch.. &-3.952249 &1.107007 &-3.57&0.001& -6.178035  -1.726463 \\
+Communicat.. & -.8169481 &.2092954 & -3.90&0.000& -1.237765  -.3961315 \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\lipsum[6]
+
+\begin{center}
+\begin{tabular}{c|cc}
+\hline
+年份 & \multicolumn{2}{c}{指标}\\
+\hline
+2017 & 0.9997 & 0.0555 \\
+2018 & 0.9994 & 0      \\
+2019 & 0.9993 & 0      \\
+\hline
+\end{tabular}
+\end{center}
+
+\lipsum[6]
+\begin{table}[h]
+  \centering
+  \begin{tabular}{c|cc}
+\hline
+年份 & \multicolumn{2}{c}{指标}\\
+\hline
+2017 & 0.9997 & 0.0555 \\
+2018 & 0.9994 & 0      \\
+2019 & 0.9993 & 0      \\
+\hline
+\end{tabular}
+  \caption{NAME}\label{SIGN}
+\end{table}
+
+Let's to see Table \ref{SIGN}.
+
+
+\begin{minipage}{0.5\linewidth}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{合并}}&测试\\
+\cline{3-3}
+\multicolumn{2}{|c|}{}& 0.9997  \\
+\hline
+2019 & 0.9993 & 0 \\
+\hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\begin{tabular}{c|ccc}
+\hline
+年份 & \multicolumn{3}{c}{指标}\\
+\hline
+\multirow{3}{*}{合并}&2017 & 0.9997 & 0.0555 \\
+&2018 & 0.9994 & 0      \\
+&2019 & 0.9993 & 0      \\
+\hline
+\end{tabular}
+\end{minipage}
+
+
+\lipsum[6]
+
+写入你的中文
+如果你不想显示上面的那段文字，那就把lipsum删掉
+
+获得更多的latex教材，请添加latex交流群，或者关注迈思数模微信公众号：shumohome
+并回复“LATEX资料”
+美赛LATEX模板交流群：193607493
+美赛LATEX模板交流群：193607493
+
+
+
+美赛获得更多的latex教材，请添加latex交流群，或者关注迈思数模微信公众号：shumohome
+并回复“LATEX资料”
+美赛LATEX模板交流群：193607493
+
+
+获得更多的latex教材，请添加latex交流群，或者关注迈思数模微信公众号：shumohome
+并回复“LATEX资料”
+美赛LATEX模板交流群：193607493
+
+\begin{itemize}
+\item \textbf{Applies widely}\\
+This  system can be used for many types of airplanes, and it also
+solves the interference during  the procedure of the boarding
+airplane,as described above we can get to the  optimization
+boarding time.We also know that all the service is automate.
+\item \textbf{Improve the quality of the airport service}\\
+Balancing the cost of the cost and the benefit, it will bring in
+more convenient  for airport and passengers.It also saves many
+human resources for the airline. \item \textbf{}
+\end{itemize}
+
+\begin{thebibliography}{99}
+\bibitem{1} D.~E. KNUTH   The \TeX{}book  the American
+Mathematical Society and Addison-Wesley
+Publishing Company , 1984-1986.
+\bibitem{2}Lamport, Leslie,  \LaTeX{}: `` A Document Preparation System '',
+Addison-Wesley Publishing Company, 1986.
+\bibitem{3}\url{http://www.latexstudio.net/}
+\bibitem{4}\url{http://www.chinatex.org/}
+\end{thebibliography}
+
+\begin{appendices}
+
+\section{First appendix}
+
+\lipsum[13]
+
+Here are simulation programmes we used in our model as follow.\\
+
+\textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
+\lstinputlisting[language=Matlab]{./code/mcmthesis-matlab1.m}
+
+\section{Second appendix}
+
+some more text \textcolor[rgb]{0.98,0.00,0.00}{\textbf{Input C++ source:}}
+\lstinputlisting[language=C++]{./code/mcmthesis-sudoku.cpp}
+
+\end{appendices}
+\end{document}
+
+%%
+%% This work consists of these files mcmthesis.dtx,
+%%                                   figures/ and
+%%                                   code/,
+%% and the derived files             mcmthesis.cls,
+%%                                   mcmthesis-demo.tex,
+%%                                   README,
+%%                                   LICENSE,
+%%                                   mcmthesis.pdf and
+%%                                   mcmthesis-demo.pdf.
+%%
+%% End of file `mcmthesis-demo.tex'.

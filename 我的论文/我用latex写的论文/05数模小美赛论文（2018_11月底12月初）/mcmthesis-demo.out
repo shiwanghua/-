@@ -1,0 +1,24 @@
+\BOOKMARK [1][]{section.1}{Background\040Introduction}{}% 1
+\BOOKMARK [1][]{section.2}{The\040Description\040of\040Problem}{}% 2
+\BOOKMARK [2][]{subsection.2.1}{Problem\040One:\040Online\040Dating\040Matches\040}{section.2}% 3
+\BOOKMARK [2][]{subsection.2.2}{Problem\040Two:\040More\040Suitable\040Estimate\040of\040An\040Ideally\040Sized\040Choice\040Set}{section.2}% 4
+\BOOKMARK [2][]{subsection.2.3}{Problem\040Three:\040Information\040Forms\040Design\040and\040Effect\040Analysis\040Study}{section.2}% 5
+\BOOKMARK [2][]{subsection.2.4}{Problem\040Four:\040Non-Technical\040News\040Release\040}{section.2}% 6
+\BOOKMARK [1][]{section.3}{Terminology\040Explained\040in\040Model\0401}{}% 7
+\BOOKMARK [1][]{section.4}{Assumptions}{}% 8
+\BOOKMARK [1][]{section.5}{Symbols\040and\040Definitions}{}% 9
+\BOOKMARK [1][]{section.6}{Problem\040Solutions\040with\040Model\040Foundation}{}% 10
+\BOOKMARK [2][]{subsection.6.1}{Solution\040for\040Problem\040One}{section.6}% 11
+\BOOKMARK [3][]{subsubsection.6.1.1}{General\040Idea}{subsection.6.1}% 12
+\BOOKMARK [3][]{subsubsection.6.1.2}{Model\0401:\040K-means}{subsection.6.1}% 13
+\BOOKMARK [3][]{subsubsection.6.1.3}{Model\0402:\040KNN}{subsection.6.1}% 14
+\BOOKMARK [3][]{subsubsection.6.1.4}{Other\040Models\040}{subsection.6.1}% 15
+\BOOKMARK [3][]{subsubsection.6.1.5}{Models\040Optimization\040}{subsection.6.1}% 16
+\BOOKMARK [2][]{subsection.6.2}{Solution\040for\040Problem\040Two}{section.6}% 17
+\BOOKMARK [2][]{subsection.6.3}{Solution\040for\040Problem\040Three}{section.6}% 18
+\BOOKMARK [2][]{subsection.6.4}{Solution\040for\040Problem\040Four}{section.6}% 19
+\BOOKMARK [1][]{section.7}{Future\040Work}{}% 20
+\BOOKMARK [1][]{section*.21}{Appendices}{}% 21
+\BOOKMARK [1][]{Appendix.a.A}{Appendix Model 1: k-means – example on iris data set }{}% 22
+\BOOKMARK [1][]{Appendix.a.B}{Appendix Model 2: KNN – example on iris data set }{}% 23
+\BOOKMARK [1][]{Appendix.a.C}{Appendix\040Information\040Forms\040Design\040}{}% 24
